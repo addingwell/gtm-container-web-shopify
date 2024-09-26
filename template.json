@@ -1,11 +1,12 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2024-09-09 10:24:46",
+    "exportTime": "2024-09-26 06:24:21",
     "containerVersion": {
-        "path": "accounts/6247752723/containers/194353974/versions/0",
+        "path": "accounts/6247752723/containers/194353974/versions/5",
         "accountId": "6247752723",
         "containerId": "194353974",
-        "containerVersionId": "0",
+        "containerVersionId": "5",
+        "name": "Add \"Add address info\" event",
         "container": {
             "path": "accounts/6247752723/containers/194353974",
             "accountId": "6247752723",
@@ -84,63 +85,17 @@
                     {
                         "type": "BOOLEAN",
                         "key": "sendEcommerceData",
-                        "value": "false"
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
                     },
                     {
                         "type": "BOOLEAN",
                         "key": "enhancedUserId",
                         "value": "false"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "eventSettingsTable",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "item_list_id"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Item list id}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "item_list_name"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Item list name}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "items"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Items}}"
-                                    }
-                                ]
-                            }
-                        ]
                     },
                     {
                         "type": "TEMPLATE",
@@ -158,7 +113,7 @@
                         "value": "{{GA4 - Event settings - User Data}}"
                     }
                 ],
-                "fingerprint": "1725286384048",
+                "fingerprint": "1727329496572",
                 "firingTriggerId": [
                     "26"
                 ],
@@ -181,63 +136,17 @@
                     {
                         "type": "BOOLEAN",
                         "key": "sendEcommerceData",
-                        "value": "false"
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
                     },
                     {
                         "type": "BOOLEAN",
                         "key": "enhancedUserId",
                         "value": "false"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "eventSettingsTable",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "currency"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Currency}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "value"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Value}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "items"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Items}}"
-                                    }
-                                ]
-                            }
-                        ]
                     },
                     {
                         "type": "TEMPLATE",
@@ -255,7 +164,7 @@
                         "value": "{{GA4 - Event settings - User Data}}"
                     }
                 ],
-                "fingerprint": "1725286479177",
+                "fingerprint": "1727329467189",
                 "firingTriggerId": [
                     "28"
                 ],
@@ -278,63 +187,17 @@
                     {
                         "type": "BOOLEAN",
                         "key": "sendEcommerceData",
-                        "value": "false"
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
                     },
                     {
                         "type": "BOOLEAN",
                         "key": "enhancedUserId",
                         "value": "false"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "eventSettingsTable",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "currency"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Currency}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "value"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Value}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "items"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Items}}"
-                                    }
-                                ]
-                            }
-                        ]
                     },
                     {
                         "type": "TEMPLATE",
@@ -352,7 +215,7 @@
                         "value": "{{GA4 - Event settings - User Data}}"
                     }
                 ],
-                "fingerprint": "1725286628122",
+                "fingerprint": "1727329515405",
                 "firingTriggerId": [
                     "30"
                 ],
@@ -375,63 +238,17 @@
                     {
                         "type": "BOOLEAN",
                         "key": "sendEcommerceData",
-                        "value": "false"
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
                     },
                     {
                         "type": "BOOLEAN",
                         "key": "enhancedUserId",
                         "value": "false"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "eventSettingsTable",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "currency"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Currency}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "value"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Value}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "items"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Items}}"
-                                    }
-                                ]
-                            }
-                        ]
                     },
                     {
                         "type": "TEMPLATE",
@@ -449,7 +266,7 @@
                         "value": "{{GA4 - Event settings - User Data}}"
                     }
                 ],
-                "fingerprint": "1725286612082",
+                "fingerprint": "1727329584564",
                 "firingTriggerId": [
                     "32"
                 ],
@@ -472,63 +289,17 @@
                     {
                         "type": "BOOLEAN",
                         "key": "sendEcommerceData",
-                        "value": "false"
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
                     },
                     {
                         "type": "BOOLEAN",
                         "key": "enhancedUserId",
                         "value": "false"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "eventSettingsTable",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "currency"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Currency}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "value"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Value}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "items"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Items}}"
-                                    }
-                                ]
-                            }
-                        ]
                     },
                     {
                         "type": "TEMPLATE",
@@ -546,7 +317,7 @@
                         "value": "{{GA4 - Event settings - User Data}}"
                     }
                 ],
-                "fingerprint": "1725286700904",
+                "fingerprint": "1727329457922",
                 "firingTriggerId": [
                     "34"
                 ],
@@ -569,7 +340,12 @@
                     {
                         "type": "BOOLEAN",
                         "key": "sendEcommerceData",
-                        "value": "false"
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
                     },
                     {
                         "type": "BOOLEAN",
@@ -586,12 +362,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "currency"
+                                        "value": "shopify_y"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{DLV - Currency}}"
+                                        "value": "{{DLV - shopify_y}}"
                                     }
                                 ]
                             },
@@ -601,12 +377,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "value"
+                                        "value": "page_location"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{DLV - Value}}"
+                                        "value": "{{DLV - Page location}}"
                                     }
                                 ]
                             },
@@ -616,27 +392,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "coupon"
+                                        "value": "page_referrer"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{DLV - Coupon}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "items"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Items}}"
+                                        "value": "{{DLV - Page referrer}}"
                                     }
                                 ]
                             }
@@ -658,7 +419,7 @@
                         "value": "{{GA4 - Event settings - User Data}}"
                     }
                 ],
-                "fingerprint": "1725286803742",
+                "fingerprint": "1727330422221",
                 "firingTriggerId": [
                     "36"
                 ],
@@ -681,7 +442,12 @@
                     {
                         "type": "BOOLEAN",
                         "key": "sendEcommerceData",
-                        "value": "false"
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
                     },
                     {
                         "type": "BOOLEAN",
@@ -698,12 +464,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "currency"
+                                        "value": "shopify_y"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{DLV - Currency}}"
+                                        "value": "{{DLV - shopify_y}}"
                                     }
                                 ]
                             },
@@ -713,12 +479,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "value"
+                                        "value": "page_location"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{DLV - Value}}"
+                                        "value": "{{DLV - Page location}}"
                                     }
                                 ]
                             },
@@ -728,27 +494,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "coupon"
+                                        "value": "page_referrer"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{DLV - Coupon}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "items"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Items}}"
+                                        "value": "{{DLV - Page referrer}}"
                                     }
                                 ]
                             }
@@ -770,7 +521,7 @@
                         "value": "{{GA4 - Event settings - User Data}}"
                     }
                 ],
-                "fingerprint": "1725290595445",
+                "fingerprint": "1727330401166",
                 "firingTriggerId": [
                     "39"
                 ],
@@ -793,7 +544,12 @@
                     {
                         "type": "BOOLEAN",
                         "key": "sendEcommerceData",
-                        "value": "false"
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
                     },
                     {
                         "type": "BOOLEAN",
@@ -810,12 +566,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "currency"
+                                        "value": "shopify_y"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{DLV - Currency}}"
+                                        "value": "{{DLV - shopify_y}}"
                                     }
                                 ]
                             },
@@ -825,12 +581,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "value"
+                                        "value": "page_location"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{DLV - Value}}"
+                                        "value": "{{DLV - Page location}}"
                                     }
                                 ]
                             },
@@ -840,27 +596,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "coupon"
+                                        "value": "page_referrer"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{DLV - Coupon}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "items"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Items}}"
+                                        "value": "{{DLV - Page referrer}}"
                                     }
                                 ]
                             }
@@ -882,7 +623,7 @@
                         "value": "{{GA4 - Event settings - User Data}}"
                     }
                 ],
-                "fingerprint": "1725290564689",
+                "fingerprint": "1727330384514",
                 "firingTriggerId": [
                     "40"
                 ],
@@ -905,7 +646,12 @@
                     {
                         "type": "BOOLEAN",
                         "key": "sendEcommerceData",
-                        "value": "false"
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
                     },
                     {
                         "type": "BOOLEAN",
@@ -922,102 +668,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "currency"
+                                        "value": "shopify_y"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{DLV - Currency}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "value"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Value}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "transaction_id"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Transaction id}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "coupon"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Coupon}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "shipping"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Shipping}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "tax"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Tax}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "items"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - Items}}"
+                                        "value": "{{DLV - shopify_y}}"
                                     }
                                 ]
                             }
@@ -1039,9 +695,285 @@
                         "value": "{{GA4 - Event settings - User Data}}"
                     }
                 ],
-                "fingerprint": "1725291187330",
+                "fingerprint": "1727329334134",
                 "firingTriggerId": [
                     "42"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "tagId": "49",
+                "name": "GA4 - Event - Add contact info",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "shopify_y"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - shopify_y}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "page_location"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - Page location}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "page_referrer"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - Page referrer}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "add_contact_info"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA4 - Measurement id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{GA4 - Event settings - User Data}}"
+                    }
+                ],
+                "fingerprint": "1727330360227",
+                "firingTriggerId": [
+                    "50"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "tagId": "52",
+                "name": "GA4 - Event - Page view",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "shopify_y"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - shopify_y}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "page_view"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA4 - Measurement id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{GA4 - Event settings - User Data}}"
+                    }
+                ],
+                "fingerprint": "1727329602204",
+                "firingTriggerId": [
+                    "51"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "tagId": "65",
+                "name": "GA4 - Event - Add address info",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "shopify_y"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - shopify_y}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "page_location"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - Page location}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "page_referrer"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - Page referrer}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "add_address_info"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA4 - Measurement id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{GA4 - Event settings - User Data}}"
+                    }
+                ],
+                "fingerprint": "1727330891435",
+                "firingTriggerId": [
+                    "64"
                 ],
                 "parentFolderId": "5",
                 "tagFiringOption": "ONCE_PER_EVENT",
@@ -1287,6 +1219,84 @@
                 ],
                 "fingerprint": "1725530927246",
                 "parentFolderId": "5"
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "triggerId": "50",
+                "name": "GA4 - Trigger - Add contact info",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "add_contact_info"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1727330205647",
+                "parentFolderId": "5"
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "triggerId": "51",
+                "name": "GA4 - Trigger - Page view",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "page_view"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1727330205648",
+                "parentFolderId": "5"
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "triggerId": "64",
+                "name": "GA4 - Trigger - Add address info",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "add_address_info"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1727330899324",
+                "parentFolderId": "5"
             }
         ],
         "variable": [
@@ -1329,7 +1339,7 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "true"
+                                        "value": "false"
                                     }
                                 ]
                             },
@@ -1351,14 +1361,14 @@
                         ]
                     }
                 ],
-                "fingerprint": "1725531021841",
+                "fingerprint": "1727329618373",
                 "parentFolderId": "5"
             },
             {
                 "accountId": "6247752723",
                 "containerId": "194353974",
                 "variableId": "6",
-                "name": "DLV - Transaction id",
+                "name": "DLV - Ecommerce - Transaction id",
                 "type": "v",
                 "parameter": [
                     {
@@ -1377,7 +1387,7 @@
                         "value": "ecommerce.transaction_id"
                     }
                 ],
-                "fingerprint": "1725282454638",
+                "fingerprint": "1727330188174",
                 "parentFolderId": "17",
                 "formatValue": {}
             },
@@ -1385,7 +1395,7 @@
                 "accountId": "6247752723",
                 "containerId": "194353974",
                 "variableId": "7",
-                "name": "DLV - Items",
+                "name": "DLV - Ecommerce - Items",
                 "type": "v",
                 "parameter": [
                     {
@@ -1404,7 +1414,7 @@
                         "value": "ecommerce.items"
                     }
                 ],
-                "fingerprint": "1725282466282",
+                "fingerprint": "1727330188171",
                 "parentFolderId": "17",
                 "formatValue": {}
             },
@@ -1412,7 +1422,7 @@
                 "accountId": "6247752723",
                 "containerId": "194353974",
                 "variableId": "8",
-                "name": "DLV - Tax",
+                "name": "DLV - Ecommerce - Tax",
                 "type": "v",
                 "parameter": [
                     {
@@ -1431,7 +1441,7 @@
                         "value": "ecommerce.tax"
                     }
                 ],
-                "fingerprint": "1725282460578",
+                "fingerprint": "1727330188175",
                 "parentFolderId": "17",
                 "formatValue": {}
             },
@@ -1439,7 +1449,7 @@
                 "accountId": "6247752723",
                 "containerId": "194353974",
                 "variableId": "9",
-                "name": "DLV - Value",
+                "name": "DLV - Ecommerce - Value",
                 "type": "v",
                 "parameter": [
                     {
@@ -1458,34 +1468,7 @@
                         "value": "ecommerce.value"
                     }
                 ],
-                "fingerprint": "1725280875256",
-                "parentFolderId": "17",
-                "formatValue": {}
-            },
-            {
-                "accountId": "6247752723",
-                "containerId": "194353974",
-                "variableId": "10",
-                "name": "DLV - User data",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setDefaultValue",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "user_data"
-                    }
-                ],
-                "fingerprint": "1725280875257",
+                "fingerprint": "1727330188173",
                 "parentFolderId": "17",
                 "formatValue": {}
             },
@@ -1506,27 +1489,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "user_data"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{DLV - User data}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
                                         "value": "user_id"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{DLV - User id}}"
+                                        "value": "{{DLV - User - Id}}"
                                     }
                                 ]
                             },
@@ -1536,19 +1504,139 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "shopify_y"
+                                        "value": "user_data.email_address"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{CJS - _shopify_y}}"
+                                        "value": "{{DLV - User - Email address}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "user_data.phone_number"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - User - Phone number}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "user_data.address.first_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - User - First name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "user_data.address.last_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - User - Last name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "user_data.address.street"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - User - Street}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "user_data.address.city"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - User - City}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "user_data.address.region"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - User - Region}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "user_data.address.postal_code"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - User - Postal code}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "user_data.address.country"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DLV - User - Country}}"
                                     }
                                 ]
                             }
                         ]
                     }
                 ],
-                "fingerprint": "1725870348494",
+                "fingerprint": "1727330013542",
                 "parentFolderId": "5"
             },
             {
@@ -1572,7 +1660,7 @@
                 "accountId": "6247752723",
                 "containerId": "194353974",
                 "variableId": "20",
-                "name": "DLV - Currency",
+                "name": "DLV - Ecommerce - Currency",
                 "type": "v",
                 "parameter": [
                     {
@@ -1591,7 +1679,7 @@
                         "value": "ecommerce.currency"
                     }
                 ],
-                "fingerprint": "1725282552195",
+                "fingerprint": "1727330188169",
                 "parentFolderId": "17",
                 "formatValue": {}
             },
@@ -1599,7 +1687,7 @@
                 "accountId": "6247752723",
                 "containerId": "194353974",
                 "variableId": "21",
-                "name": "DLV - Coupon",
+                "name": "DLV - Ecommerce - Coupon",
                 "type": "v",
                 "parameter": [
                     {
@@ -1618,7 +1706,7 @@
                         "value": "ecommerce.coupon"
                     }
                 ],
-                "fingerprint": "1725282646344",
+                "fingerprint": "1727330188170",
                 "parentFolderId": "17",
                 "formatValue": {}
             },
@@ -1626,7 +1714,7 @@
                 "accountId": "6247752723",
                 "containerId": "194353974",
                 "variableId": "22",
-                "name": "DLV - Shipping",
+                "name": "DLV - Ecommerce - Shipping",
                 "type": "v",
                 "parameter": [
                     {
@@ -1645,7 +1733,7 @@
                         "value": "ecommerce.shipping"
                     }
                 ],
-                "fingerprint": "1725282639742",
+                "fingerprint": "1727330188172",
                 "parentFolderId": "17",
                 "formatValue": {}
             },
@@ -1653,7 +1741,7 @@
                 "accountId": "6247752723",
                 "containerId": "194353974",
                 "variableId": "23",
-                "name": "DLV - User id",
+                "name": "DLV - User - Id",
                 "type": "v",
                 "parameter": [
                     {
@@ -1672,7 +1760,7 @@
                         "value": "user_id"
                     }
                 ],
-                "fingerprint": "1725285680281",
+                "fingerprint": "1727330188192",
                 "parentFolderId": "17",
                 "formatValue": {}
             },
@@ -1680,7 +1768,7 @@
                 "accountId": "6247752723",
                 "containerId": "194353974",
                 "variableId": "24",
-                "name": "DLV - Item list id",
+                "name": "DLV - Ecommerce - Item list id",
                 "type": "v",
                 "parameter": [
                     {
@@ -1699,7 +1787,7 @@
                         "value": "ecommerce.item_list_id"
                     }
                 ],
-                "fingerprint": "1725532061566",
+                "fingerprint": "1727330188166",
                 "parentFolderId": "17",
                 "formatValue": {}
             },
@@ -1707,7 +1795,7 @@
                 "accountId": "6247752723",
                 "containerId": "194353974",
                 "variableId": "25",
-                "name": "DLV - Item list name",
+                "name": "DLV - Ecommerce - Item list name",
                 "type": "v",
                 "parameter": [
                     {
@@ -1726,34 +1814,7 @@
                         "value": "ecommerce.item_list_name"
                     }
                 ],
-                "fingerprint": "1725532061567",
-                "parentFolderId": "17",
-                "formatValue": {}
-            },
-            {
-                "accountId": "6247752723",
-                "containerId": "194353974",
-                "variableId": "44",
-                "name": "DLV - Master Id",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setDefaultValue",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "master_id"
-                    }
-                ],
-                "fingerprint": "1725868315044",
+                "fingerprint": "1727330188168",
                 "parentFolderId": "17",
                 "formatValue": {}
             },
@@ -1761,7 +1822,7 @@
                 "accountId": "6247752723",
                 "containerId": "194353974",
                 "variableId": "45",
-                "name": "DLV - _shopify_y",
+                "name": "DLV - shopify_y",
                 "type": "v",
                 "parameter": [
                     {
@@ -1777,28 +1838,308 @@
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "_shopify_y"
+                        "value": "shopify_y"
                     }
                 ],
-                "fingerprint": "1725868315044",
+                "fingerprint": "1727330188174",
                 "parentFolderId": "17",
                 "formatValue": {}
             },
             {
                 "accountId": "6247752723",
                 "containerId": "194353974",
-                "variableId": "46",
-                "name": "CJS - _shopify_y",
-                "type": "jsm",
+                "variableId": "53",
+                "name": "DLV - User - Email address",
+                "type": "v",
                 "parameter": [
                     {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
                         "type": "TEMPLATE",
-                        "key": "javascript",
-                        "value": "function() {\n return {{DLV - _shopify_y}} || {{DLV - Master Id}}; \n}"
+                        "key": "name",
+                        "value": "user_data.email_address"
                     }
                 ],
-                "fingerprint": "1725870379604",
-                "parentFolderId": "5",
+                "fingerprint": "1727330188141",
+                "parentFolderId": "17",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "variableId": "54",
+                "name": "DLV - User - Phone number",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.phone_number"
+                    }
+                ],
+                "fingerprint": "1727330188142",
+                "parentFolderId": "17",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "variableId": "55",
+                "name": "DLV - User - First name",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.first_name"
+                    }
+                ],
+                "fingerprint": "1727330188142",
+                "parentFolderId": "17",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "variableId": "56",
+                "name": "DLV - User - Last name",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.last_name"
+                    }
+                ],
+                "fingerprint": "1727330188141",
+                "parentFolderId": "17",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "variableId": "57",
+                "name": "DLV - User - Street",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.street"
+                    }
+                ],
+                "fingerprint": "1727330188168",
+                "parentFolderId": "17",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "variableId": "58",
+                "name": "DLV - User - City",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.city"
+                    }
+                ],
+                "fingerprint": "1727330188139",
+                "parentFolderId": "17",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "variableId": "59",
+                "name": "DLV - User - Region",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.region"
+                    }
+                ],
+                "fingerprint": "1727330188170",
+                "parentFolderId": "17",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "variableId": "60",
+                "name": "DLV - User - Postal code",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.postal_code"
+                    }
+                ],
+                "fingerprint": "1727330188165",
+                "parentFolderId": "17",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "variableId": "61",
+                "name": "DLV - User - Country",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.country"
+                    }
+                ],
+                "fingerprint": "1727330188140",
+                "parentFolderId": "17",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "variableId": "62",
+                "name": "DLV - Page location",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page_location"
+                    }
+                ],
+                "fingerprint": "1727330514765",
+                "parentFolderId": "17",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6247752723",
+                "containerId": "194353974",
+                "variableId": "63",
+                "name": "DLV - Page referrer",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page_referrer"
+                    }
+                ],
+                "fingerprint": "1727330514766",
+                "parentFolderId": "17",
                 "formatValue": {}
             }
         ],
@@ -1850,7 +2191,7 @@
                 "name": "Event"
             }
         ],
-        "fingerprint": "1725877486741",
-        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6247752723/containers/194353974/versions/0?apiLink=version"
+        "fingerprint": "1727330949728",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6247752723/containers/194353974/versions/5?apiLink=version"
     }
 }

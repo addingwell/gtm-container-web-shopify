@@ -8,15 +8,20 @@ This repository contains a **Google Tag Manager (GTM) Web Container export** (`t
 
 - **Pre-configured GA4 Tags and Triggers**  
   Includes multiple GA4 tags such as:
-  - Page View
+  - Search
+  - Login
+  - Sign up
+  - View Item List
+  - Select Item
   - View Item
   - Add to Cart
   - Remove from Cart
   - Begin Checkout
   - Add Payment Info
-  - Purchase
   - Add Address Info
   - Add Shipping Info
+  - Add Address Info
+  - Purchase
 
 - **DataLayer Variables for Shopify**  
   Captures essential e-commerce data from Shopify's dataLayer, such as:
